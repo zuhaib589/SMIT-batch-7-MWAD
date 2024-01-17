@@ -4,41 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+<style>
+
+
+label{
+    margin-right:90px ;
+    font-size: 20px;
+    font-weight: 400;
+}
+ .inp{
+ height: 25px;
+    width: 70%;
+ }
+ ::placeholder{
+width: 100px;
+ }
+ h1{
+    text-align: center;
+ }
+
+</style>
+
+
 </head>
 <body>
 
     <h1>Form</h1>
-    <form action="form.html">
+     
+
+        <form action="form.html">
+            
+            <label for="fname">First Name</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="fname" id="fname" placeholder="First Name" class="inp">
+<br><br>
+        <label for="lname">Last Name</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="lname" id="lname" placeholder="Last Name" class="inp">
         
+<br><br>
+        <label for="email">Email</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" name="email" id="email" placeholder="Email " class="inp">
 
+<br><br>
 
+        <label for="mobile">Mobile</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="tel" name="mobile" id="mobile" placeholder="Mobile Number" class="inp">
+        
+<br><br>       
+        
+           <label for="gender">Gender</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+           <input type="radio" name="gender" id="Male">Male
+           <input type="radio" name="gender" id="Female">Female
+        
+        <br><br>
+         
+        <label for="dob">Date of birth</label>
+        <input type="date" name="dob" id="dob" placeholder="Date of Birth" class="inp">
+        
+        <br><br>
+        
+        <label for="add">Address</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <textarea name="add" id="add" cols="20" rows="10" class="inp"></textarea>
+        
+        <br><br>
+        
+        <label for="city">City</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="text" name="city" id="" placeholder="City" class="inp">
 
+        <br><br>
+        
+        <label for="pin">Area Pin</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="pin" id="" placeholder="Area code" class="inp">
 
+        <br><br>
+        
+        <label for="state">State</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="state" id="" placeholder="Code" class="inp">
 
+        <br><br>
+        
+        <label for="qualification"> Qualification</label>
+        <select name="qualification" id=""> 
+            <option value="Qualification">Qualification</option>
+            <option value="Matric">Matric</option>
+            <option value="inter"> inter</option>
+            <option value="Under Graduate">Under Graduate</option>
+            <option value="Post Graduate">Post Graduate</option>
+        </select>
 
+        <br><br>
 
+<label for="Specialization">Specialization</label><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Specialization" id="">Computer Science <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Specialization" id="">Information Technology <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Specialization" id="">Computer Architecture <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Specialization" id="">Tele Communication <br>
+<br>
 
+<label for="Pass">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="password" name="pass" id="" placeholder="Password" class="inp"> <br><br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<button style="margin-top: 20px; width: 100px; background-color: black; color: whitesmoke; border-radius: 5px; height: 30px;              ">Registered</button>
 
     </form>
+
+
 </body>
 </html>
