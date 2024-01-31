@@ -1,0 +1,80 @@
+* {background-color: black;
+color: yellow;
+font-family: Monospace	Monaco ;
+font-size: 25px;
+}
+.logo{
+    font-family:cursive  !important ;
+    font-size: 50px;
+
+}
+
+.Navbar a {
+    margin: 6px;
+    text-decoration: none;
+    font-size: 20px !important;
+}
+
+.Navbar a:hover {
+
+    color: white;
+
+}
+
+.btn1{
+    margin-top: 10px;
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    border-color: yellow;
+}
+.btn1:hover{
+color: white;
+background-color: black;
+}
+
+.pic1{
+     margin:5px ;
+     border-radius: 15px;
+     opacity: 0.4 ;
+}
+.pic1:hover{
+    opacity: 1;
+    transition:all;
+}
+
+.menu{
+    font-family:cursive  !important ;
+    font-size: 50px;
+
+}
+.pic2{
+    margin:5px ;
+    border-radius: 15px;
+    opacity: 0.4 ;
+}
+.pic2:hover{
+    opacity: 1;
+    transition:all;
+}
+.about{
+    font-family:cursive  !important ;
+    font-size: 50px;
+    color: white;
+
+}
+.p{
+    color: white;
+}
+.time{
+    font-family:cursive  !important ;
+    font-size: 50px;
+}
+table{
+    margin: 20px;
+    border-color: yellow;
+}
+.input{
+ border-color: yellow;
+
+}
