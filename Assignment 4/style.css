@@ -1,0 +1,402 @@
+html {
+    scroll-behavior: smooth;
+  }
+nav{
+    background-color:  rgb(231, 230, 230);
+    padding-top: 20px;
+    max-height: 480px;
+}
+.icon{
+    display: inline-block;
+    padding-left: 40px;
+}
+ .leftSection{
+    display: inline-block;
+    width: 20%;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    vertical-align:10px;
+}
+.rightSection{
+    width: 55%;
+    display: inline-block;
+    text-align: right;
+}
+.rightSection a {
+    margin: 20px;
+    font-size: 20px;
+    color: gray;
+    vertical-align: 10px;
+    text-decoration: none;
+}
+.button1{
+    background-color: orange;
+    width: 10%;
+    height: 30px;
+    vertical-align:10px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+}
+.headbody{
+    display: inline-block;
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 90px;
+    
+}
+.headbody h1{
+    font-size: 50px;
+    line-height: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.headbody p {
+    margin-top: 70px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.headbody .button2 {
+    background-color: orange;
+    width: 20% ;
+    height: 35px;
+    vertical-align:10px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+}
+.headbody .button3 {
+    background-color: black;
+    width: 20% ;
+    height: 35px;
+    vertical-align:10px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+
+
+}
+.headbody1{
+    display: inline-block;
+    width: 40% ;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.body h1 { 
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 800;
+    font-size:40px;
+    margin-bottom: 5px;
+}
+
+.body p{
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.boxes{
+    width:90%;
+    margin-top: 30px;
+   display: inline-flex;
+    text-align: right;  
+}
+
+ .box1{
+    width: 25%;
+    height: 350px;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px auto ;
+    display: inline-block;
+    margin: 0px auto;
+ }
+
+.box1 h2{
+    margin-top: 40px;
+    color: rgb(232, 96, 12);
+    
+}
+
+.box1 img{
+    margin-top: 40px;
+}
+
+.box2{
+    width: 25%;
+    height: 350px;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px auto ;
+    display: inline-block;
+    margin: 0px auto;
+ 
+ }
+
+.box2 h2{
+    margin-top: 40px;
+    color: rgb(232, 96, 12);
+    
+}
+
+.box2 img{
+    margin-top: 40px;
+}
+
+.box3{
+    width: 25%;
+    height: 350px;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px auto ;
+    display: inline-block;
+    margin: 0px auto;
+ 
+ }
+
+.box3 h2{
+    margin-top: 40px;
+    color: rgb(232, 96, 12);
+    
+}
+
+.box3 img{
+    margin-top: 40px;
+}
+
+.box{
+    display: block;
+    margin-top: 40px ;
+    text-align: center;
+    width: 100%;
+}
+
+.box button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 40px;
+}
+
+.fruits{
+    
+    margin-top: 50px;
+}
+
+.fruits h1{ 
+text-align: center;    
+margin-top: 60px;
+font-weight: 800;
+font-size:40px;
+margin-bottom: 5px;
+}
+
+.fruits p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-item-1{
+    width: 60%;
+    margin-left: 20px ;
+    display: inline-block;
+    margin-top: 40px;
+    
+}
+.orange{
+    width: 20%;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.card-item-1 button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 40px;
+}
+.card-item-1 h2{
+    font-size: 30px;
+}
+.card-item-1 p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.card-item-2{
+    width: 60%;
+    margin-left: 20px ;
+    display: inline-block;
+    margin-top: 40px;
+    
+}
+.grapes{
+    width: 20%;
+    display: inline-block;
+    margin-left: 100px;
+    padding-top:40px;
+    
+}
+
+.card-item-2 button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 40px;
+}
+.card-item-2 h2{
+    font-size: 30px;
+  
+    line-height: 30px;
+}
+.card-item-2 p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.card-item-3{
+    width: 60%;
+    margin-left: 20px ;
+    display: inline-block;
+    margin-top: 40px;
+    
+}
+.guava{
+    width: 20%;
+    display: inline-block;
+    margin-left: 100px;
+    padding-top:40px;
+    
+}
+
+.card-item-3 button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 40px;
+}
+.card-item-3 h2{
+    font-size: 30px;
+    line-height: 30px;
+}
+.card-item-3 p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.Testimonial{
+    text-align: center;
+}
+.Testimonial h1{
+    font-weight: 800;
+    font-size:40px;
+    margin-top: 150px;
+    line-height: 5px;
+}
+.Testimonial p{
+    text-align: center;
+    font-size: 20px;
+}
+.Testimonial h3{
+    font-size: 30px;
+}
+
+.contact-content{
+    width: 75% ;
+    display: inline-block;
+    font-weight: 800;
+    font-size:20px;
+    margin-top: 150px;
+    margin-left: 20px;
+
+}
+input , textarea{
+    border: none ;
+   border-bottom: 1.5px black solid;
+    width: 600px;
+}
+.contact-content button{
+    background-color: rgb(232, 96, 12);
+    border: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+    
+}
+.dish{
+    width: 20%;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 35px;
+    
+    
+}
+
+.footer1{
+    width: 10%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 120px;
+    font-size: 18px;
+}
+.footer2{
+    width: 10%;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 120px;
+    font-size: 18px;
+
+}
+.footer3{
+    width: 10%;
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: 150px;
+    font-size: 18px;
+}
+.footer4{
+    width: 10%;
+    display: inline-block;
+    margin-left: 150px;
+}
+
+#Subscribe{
+    border: 1px solid;
+    width: 180px ;
+    font-size: 20px;
+    margin-top: 0px auto;
+}
+.footer4 button{
+    background-color: rgb(232, 96, 12);
+    border: none;
+    color: white;
+    width: 110px;
+    height: 30px;
+   
+}
+
+.copyright{
+    background-color: rgb(231, 230, 230);
+    height: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 10px;
+   padding-top: 10px;
+}
