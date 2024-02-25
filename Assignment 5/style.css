@@ -2,6 +2,8 @@
 background-color: rgb(10,25,47);
 box-sizing: border-box;
 }
+/* NAVBAR */
+
 #navbar{
     margin: 25px 20px;
 }
@@ -11,13 +13,13 @@ box-sizing: border-box;
 }
 
 #logo img{
- width: 55px;
+ width: 50px;
 }
 
 #menu{
     width: 90%;
     display: inline-block;
-    vertical-align: 20px;
+    vertical-align: 25px;
     text-align: end;   
     box-sizing: border-box;
 }
@@ -44,5 +46,80 @@ color: rgb(93,233,175);
 height: 40px;
 width: 100px;
 border-radius: 5px;
-
 }
+#btn1:hover{
+    background-color: rgb(32,82,90);
+}
+
+/* HERO SECTION */
+
+#heroSection{
+    width: 70%;
+    margin-left: 10%;    
+    margin-top: 2%;
+}
+#heroSection h3{
+    font-family: Calibri;
+
+    font-size: 22px;
+    color: rgb(65,244,218);
+    margin-bottom: -30px;
+}
+#heroSection h1 {
+    font-size:  clamp(40px,8vw,65px);
+    font-family: Calibri;
+    color: rgb(204,214,246);
+    font-weight: 600;
+}
+#heroSection h1  span {
+    color: rgb(136,146,176);
+}
+#heroSection p{
+    line-height: 30px;
+    margin-top: -30px;
+    font-size: 19px;
+    width: 85%;
+    color:rgb(136 146 176);
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
+}
+#btn2{
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(93,233,175);;
+    color: rgb(93,233,175);
+    height: 50px;
+    width: 150px;
+}
+#btn2:hover{
+    background-color: rgb(32,82,90); }
+
+    /* Main Section */
+
+ #mainSection {
+        margin-top: 8%;
+        margin-left: 10%;
+    }
+
+    #aboutMe {
+display: inline-block;
+width: 50%;
+font-family: Calibri;
+color: rgb(204,214,246);
+ }
+ .none{
+    display: inline-block;
+    width: 30%;
+    color:rgb(136 146 176);
+    font-size: 18px;
+ }
+ #data p {
+    line-height: 30px;
+    font-size: 19px;
+    width: 65%;
+    color:rgb(136 146 176);
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;;
+}
+#pic1{
+    float: left;
+}
+ 
