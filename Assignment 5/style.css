@@ -102,7 +102,7 @@ border-radius: 5px;
 
     #aboutMe {
 display: inline-block;
-width: 50%;
+width: 40%;
 font-family: Calibri;
 color: rgb(204,214,246);
  }
@@ -115,11 +115,341 @@ color: rgb(204,214,246);
  #data p {
     line-height: 30px;
     font-size: 19px;
-    width: 65%;
+    width: 60%;
     color:rgb(136 146 176);
-    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;;
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
 }
 #pic1{
-    float: left;
+    float: right;
+    height: 40vw;
+    text-align: start;
+   border: 3px solid rgb(93,233,175);
+   padding: 10px;
+    
 }
+#work p {
+    font-size: 19px;
+    color:rgb(136 146 176);
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;;
+
+}
+#work #list1 ,#list2 {
+    font: inherit;
+    font-size: 19px;
+    color:rgb(136 146 176);
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+
+#Worked {
+    display: inline-block;
+    margin-top: 50px;
+    width: 40%;
+    font-family: Calibri;
+    color: rgb(204,214,246);
+     }
+     .none{
+        display: inline-block;
+        width: 30%;
+        color:rgb(136 146 176);
+        font-size: 18px;
+     }
+
+    #table table{
+        margin-top: 20px;
+         border-left:1px solid  rgb(204,214,246) ;
+         font-size: 20px;
+        
+    }
+    #table table td {
+        padding: 10px;
+        color: rgb(204,214,246) ;
+    }
+    #table table td:hover{
+        background-color: rgb(23,42,69);
+        color: rgb(42,194,196);
+    }
  
+    #table table td a:hover {
+         color: rgb(93,233,175); 
+    }
+
+    #tabda{
+display: flex;
+flex-direction: row;
+    }
+    #data1{
+        color: rgb(195,214,246);
+        margin-left: 40px; 
+    }
+    #data1 span{
+        color: rgb(78,255,218);
+    }
+    #data1 #list4{
+color: rgb(96,240,190);
+font-size: 20px;
+line-height: 30px;    
+}
+#data1 #list3{
+    font-size: 17px;
+line-height: 30px; 
+}
+#build {
+    display: inline-block;
+    width: 40%;
+    font-family: Calibri;
+    color: rgb(204,214,246);
+    margin-top: 40px;
+     }
+     .none{
+        display: inline-block;
+        width: 30%;
+        color:rgb(136 146 176);
+        font-size: 18px;}
+
+        #build1{
+        
+            display: inline-block;
+            width: 50%;
+        }
+#build1 #p1{
+    
+        color:  rgb(96,240,190);
+        font-family: monospace;
+        font-size: 15px;
+    }
+#build1 h3{
+        color:rgb(195,214,246) ;
+    }
+    
+#build1 #p2{
+        background-color:  rgb(23,42,69);
+        color: rgb(136 146 176);
+            height: 70px;
+            padding: 10px;
+           
+}
+#build1 h4{
+    color:rgb(136 146 176); ;
+}
+
+#img1{
+    display: inline-block;
+    width: 40%;
+    margin-top: 20vh;
+    box-sizing: border-box;
+    
+    
+}
+#build2{
+    display: inline-block;
+    width: 40%;
+}
+#build2 #p3 {
+    color:  rgb(96,240,190);
+        font-family: monospace;
+        font-size: 15px;
+        text-align: center;
+
+    }
+    #build2 h2{
+        color:rgb(195,214,246) ;
+        font-family: monospace;
+    }
+    #build2 #p4{
+        
+        background-color:  rgb(23,42,69);
+        color: rgb(136 146 176);
+            min-height: 70px;
+            padding: 10px;
+            margin-right: 40px;
+            position: relative ;
+  right: 50px;      
+}
+
+#other{ 
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 90%;
+}
+#other #pro1{
+    width: 30%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(23,42,69);
+    color: rgb(204,214,246);
+    padding: 15px;
+    box-sizing: border-box;
+}
+#other #pro1 .h22 {
+    background-color: rgb(23,42,69);
+    font-family: monospace;
+}
+#other #pro1 .pp2{
+    background-color: rgb(23,42,69);
+  line-height: 20px;
+
+}
+#other #pro1 .pp3{
+    font-size: small;
+    background-color: rgb(23,42,69);
+  line-height: 20px;
+}
+#other #pro2{
+    width: 30%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(23,42,69);
+    color: rgb(204,214,246);
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+#other #pro2 .h22 {
+    background-color: rgb(23,42,69);
+    font-family: monospace;
+}
+#other #pro2 .pp2{
+    background-color: rgb(23,42,69);
+  line-height: 20px;
+
+}
+#other #pro2 .pp3{
+    font-size: small;
+    background-color: rgb(23,42,69);
+  line-height: 20px;
+}
+#other #pro3{
+    width: 30%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(23,42,69);
+    color: rgb(204,214,246);
+    padding: 15px;
+    box-sizing: border-box; }
+
+    #other #pro3 .h22 {
+    background-color: rgb(23,42,69);
+        font-family: monospace;
+    }
+    #other #pro3 .pp2{
+        background-color: rgb(23,42,69);
+      line-height: 20px;
+    
+    }
+    #other #pro3 .pp3{
+        font-size: small;
+        background-color: rgb(23,42,69);
+      line-height: 20px;
+    }
+    #other #pro4{
+        margin-top: 50px;
+        width: 30%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(23,42,69);
+        color: rgb(204,214,246);
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    #other #pro4 .h22 {
+        background-color: rgb(23,42,69);
+        font-family: monospace;
+    }
+    #other #pro4 .pp2{
+        background-color: rgb(23,42,69);
+      line-height: 20px;
+    
+    }
+    #other #pro4 .pp3{
+        font-size: small;
+        background-color: rgb(23,42,69);
+      line-height: 20px;
+    }
+
+    #other #pro5{
+        margin-top: 50px;
+        width: 30%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(23,42,69);
+        color: rgb(204,214,246);
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    #other #pro5 .h22 {
+        background-color: rgb(23,42,69);
+        font-family: monospace;
+    }
+    #other #pro5 .pp2{
+        background-color: rgb(23,42,69);
+      line-height: 20px;
+    
+    }
+    #other #pro5 .pp3{
+        font-size: small;
+        background-color: rgb(23,42,69);
+      line-height: 20px;
+    }
+
+    
+    #other #pro6{
+        margin-top: 50px;
+        width: 30%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(23,42,69);
+        color: rgb(204,214,246);
+        padding: 15px;
+        box-sizing: border-box;
+    }
+    #other #pro6 .h22 {
+        background-color: rgb(23,42,69);
+        font-family: monospace;
+    }
+    #other #pro6 .pp2{
+        background-color: rgb(23,42,69);
+      line-height: 20px;
+    
+    }
+    #other #pro6 .pp3{
+        font-size: small;
+        background-color: rgb(23,42,69);
+      line-height: 20px;
+    }
+
+
+
+
+/* MEDIA QUERIES */
+
+    @media only screen and (min-width: 300px) and (max-width: 768px) {
+
+        #menu{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;  
+        }
+        #menu a{
+          margin-top: 30px;
+        }
+
+    }
