@@ -1,0 +1,67 @@
+*{
+box-sizing: border-box;
+background-color: rgb(227,230,230)  ;
+    
+}
+#dropdownMenuButton1{
+    background-color: rgb(33,37,41)  !important ;
+    border: none;
+}
+
+#nav2 {
+    background-color: rgb(35,47,62)  !important ;
+    padding: 0.3rem;
+    
+}
+#nav2 a {
+    color: white;
+    text-decoration: none;
+    margin-left:1rem ;
+    padding: 0.5rem;
+    
+}
+#nav2 a:hover{
+    border: 1px white solid;
+}
+
+#dropdownMenuButton2{
+    background-color: rgb(35,47,62) !important ; 
+    border: none;
+}
+
+a{
+    text-decoration: none;
+
+
+}
+
+#slider1 {
+    background-color: white;
+    width: 1200px;
+    
+}
+#slider1 h3{
+    background-color: white;
+
+}
+#slider1 img {
+width: 150px;
+cursor: pointer;
+}
+#slider2 ,h3{
+    background-color:white;
+}
+#slider2 img {
+    width: 150px;
+    cursor: pointer;
+    }
+.des{
+    color: blue;
+    text-decoration: none;
+    background: transparent;  
+}
+.des:hover{
+    text-decoration: underline;
+    color: red;
+  
+}
