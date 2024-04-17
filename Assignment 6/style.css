@@ -1,6 +1,6 @@
 *{
 box-sizing: border-box;
-background-color: rgb(227,230,230)  ;
+
     
 }
 #dropdownMenuButton1{
@@ -65,3 +65,72 @@ cursor: pointer;
     color: red;
   
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  footer {
+    background-color: #080808;
+    color: #fff;
+    padding: 40px 40px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 0 30px;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0 20px;
+    margin: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 5px;
+    padding: 0 20px;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section a:hover {
+    color: #f0c14b;
+  }
+  
+  .copyright-section {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .copyright-section p {
+    margin: 0;
+  }
+  h4{
+    text-align: center;
+  }
+  p{
+    font-family: alice;
+    font-size: 15px;
+  }
