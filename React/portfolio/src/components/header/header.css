@@ -6,12 +6,9 @@ ul li a{
 }
 
 .nav{
-    color: rgb(5, 71, 225);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     margin-left: 15px;
     font-weight: 600;
 }
 
-.nav:hover{
-    background-color:  rgb(5, 24, 71);
-}
