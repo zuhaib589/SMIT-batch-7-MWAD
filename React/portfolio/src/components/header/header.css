@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(5, 24, 71);
+}
+ul li a{
+    color: white;
+}
+
+.nav{
+    color: rgb(5, 71, 225);
+    font-size: 18px;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.nav:hover{
+    background-color:  rgb(5, 24, 71);
+}
