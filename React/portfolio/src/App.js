@@ -15,7 +15,7 @@ function App() {
 
     <Header/>
     <HeroSection/>
-    <div id='card.css'>
+    <div id='cards'>
     <Card title="pro1" />
     <Card title="pro2" />
     <Card title="pro3" />
@@ -23,6 +23,7 @@ function App() {
     <Card title="pro5" />
     <Card title="pro6" />
     </div>
+    
     </div>
 
   )

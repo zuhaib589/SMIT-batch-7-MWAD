@@ -13,13 +13,13 @@ export default function Header() {
     <div className="collapse navbar-collapse justify-content-end " id="navbarNav">
       <ul className="navbar-nav ">
         <li className="nav-item ">
-          <a className="nav-link nav" aria-current="page" href="#">Home</a>
+          <a className="nav-link nav" aria-current="page" href="#hero">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link  nav" href="#">Services</a>
+          <a className="nav-link  nav" href="#serivces">Services</a>
         </li>
         <li className="nav-item  ">
-          <a className="nav-link  nav" href="#">Projects</a>
+          <a className="nav-link  nav" href="#project">Projects</a>
         </li>
         <li className="nav-item">
           <a className="nav-link nav " href="#" >Contact</a>
