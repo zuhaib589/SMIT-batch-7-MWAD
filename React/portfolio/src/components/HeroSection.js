@@ -11,7 +11,7 @@ export default function HeroSection() {
        Zuhaib Zafar <br/> <span > Front-end developer</span>
    </h1>
    
-   <p className="">A professional journey revolves around crafting large-scale internet web and mobile applications using MERN Stack & React Native. Inspired by technological advancements, currently investing time in Generative AI. A candidate aiming to pursue studies in the United States to advance in the tech field.</p>
+   <p >A professional journey revolves around crafting large-scale internet web and mobile applications using MERN Stack & React Native. Inspired by technological advancements, currently investing time in Generative AI. A candidate aiming to pursue studies in the United States to advance in the tech field.</p>
    
    
     </div>

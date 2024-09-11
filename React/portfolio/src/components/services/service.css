@@ -1,0 +1,19 @@
+#work{
+    margin-left: 5%;
+    margin-top: 7%;
+
+}
+
+#work .list1 {
+    font: inherit;
+    font-size: 19px;
+    color:rgb(136 146 176);
+
+}
+
+#work p {
+    font-size: 19px;
+    color:rgb(136 146 176);
+    font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;;
+
+}

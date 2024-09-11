@@ -6,6 +6,9 @@ import "./components/header/header.css"
 import HeroSection from "./components/HeroSection"
 import Card from "./components/cards/Card"
 import "./components/cards/card.css"
+import Service from './components/services/Service';
+import "./components/services/service.css"
+
 
 
 
@@ -14,7 +17,11 @@ function App() {
     <div >
 
     <Header/>
+
     <HeroSection/>
+
+    <Service/>
+
     <div id='cards'>
     <Card title="pro1" />
     <Card title="pro2" />
