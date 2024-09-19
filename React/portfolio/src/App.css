@@ -30,14 +30,13 @@
     flex-wrap: nowrap;
     overflow-x: scroll;
     scrollbar-width: none;
-    /* padding: 30px 0px; */
     background-color: rgb(0, 0, 0);
     margin: auto;
                 
 }
 
 #Worked {
-    text-align: center;
+     text-align: center; 
     margin: 50px auto;
     font-family: Calibri;
     color: rgb(204,214,246);
