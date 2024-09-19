@@ -1,0 +1,28 @@
+.contact{
+    margin: 10% auto;
+    margin-left: 5%;  
+}
+
+.contact h2, h1, p{
+    text-align: center; 
+    font-family: Calibri;
+    color: rgb(204,214,246);
+}
+.contact p {
+    font-size: 19px;
+}
+
+.social-icons {
+    text-align: center;
+}
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: rgb(204,214,246);;
+    text-decoration: none;
+  }
+  
+.social-icons a:hover {
+    color: #0073e6; /* Change to your desired hover color */
+  }
+

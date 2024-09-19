@@ -8,6 +8,8 @@ import Card from "./components/cards/Card"
 import "./components/cards/card.css"
 import Service from './components/services/Service';
 import "./components/services/service.css"
+import Contact from "./components/contact/Contact";
+import "./components/contact/contact.css"
 
 
 
@@ -25,13 +27,15 @@ function App() {
     <h1> Where I've Worked</h1>
      </div>
     <div id='cards'>
-    <Card title="pro1" />
-    <Card title="pro2" />
-    <Card title="pro3" />
-    <Card title="pro4" />
-    <Card title="pro5" />
-    <Card title="pro6" />
+    <Card title="pro1"  imageurl="" />
+    <Card title="pro2"  imageurl="" />
+    <Card title="pro3"  imageurl="" />
+    <Card title="pro4"  imageurl="" />
+    <Card title="pro5"  imageurl="" />
+    <Card title="pro6"  imageurl="" />
     </div>
+
+    <Contact/>
     
     </div>
 
