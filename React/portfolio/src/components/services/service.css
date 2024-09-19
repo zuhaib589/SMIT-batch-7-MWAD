@@ -17,3 +17,9 @@
     font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;;
 
 }
+
+#aboutMe {
+    text-align: center; 
+    font-family: Calibri;
+    color: rgb(204,214,246);
+     }

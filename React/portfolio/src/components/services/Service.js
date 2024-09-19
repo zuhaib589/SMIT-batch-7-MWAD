@@ -1,7 +1,13 @@
 export default function Service() {
     
     return(
+
+        
         <div id="work">
+            <div id="aboutMe">
+ <h1>About Me</h1>
+  
+</div>
         <p>Here are a few technologies I've been working with recently:</p>
     <ul className="list1">
         
