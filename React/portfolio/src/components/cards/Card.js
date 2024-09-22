@@ -7,7 +7,7 @@ export default function Card(props) {
                     <div className="card" style={{ width: "18rem" }}>
                         <img src={props.imageUrl} alt='Project'  className="card-img-top" />
                         <div className="card-body" id="project">
-                            <h5 className="card-title"> <a href={props.href} Target="blank">  {props.title} </a></h5>
+                            <h5 className="card-title"> <a href={props.href} target="blank">  {props.title} </a></h5>
                             <p className="card-text">{props.desc}</p>
                             
                         </div>

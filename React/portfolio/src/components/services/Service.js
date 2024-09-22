@@ -1,28 +1,34 @@
 export default function Service() {
-    
-    return(
 
+    return (
         
-        <div id="work">
-            <div id="aboutMe">
- <h1>About Me</h1>
-  
-</div>
-        <p>Here are a few technologies I've been working with recently:</p>
-    <ul className="list1">
-        
-        <li>➾ Python (OOP + DSA) </li>
-        <li>➾ CSS3</li>
-        <li>➾ Bootstrap-5</li>
-        <li>➾ HTML5</li>
-        <li>➾ JavaScript (ES6+)</li>
-        <li>➾ React-JS</li>
-        <li>➾  Github</li>
     
+
        
-    </ul>
-    
-    </div>
+         
+
+
+
+        <div id="work">
+               <div id="aboutMe">
+                <h1>About Me</h1>
+            </div>
+           
+            <p>Here are a few technologies I've been working with recently:</p>
+            <ul className="list1">
+
+                <li>➾ Python (OOP + DSA) </li>
+                <li>➾ CSS3</li>
+                <li>➾ Bootstrap-5</li>
+                <li>➾ HTML5</li>
+                <li>➾ JavaScript (ES6+)</li>
+                <li>➾ React-JS</li>
+                <li>➾  Github</li>
+
+
+            </ul>
+
+        </div>
 
 
 

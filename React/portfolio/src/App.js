@@ -35,7 +35,7 @@ function App() {
 
     <Card  title="Quadrant Finder"  imageUrl={QF} desc="Quadrant Finder is a user-friendly application built with Streamlit for an interactive frontend and Python for the underlying logic. " href="https://github.com/zuhaib589/Python/blob/main/qudrant.py" /> 
     <Card title="Calculator"  imageUrl={Cal} desc="Calculator is a versatile and intuitive application designed with Streamlit for a seamless user experience and Python for its powerful backend." href="https://github.com/zuhaib589/Python/blob/main/calculator.py" />
-    <Card title="pro3"  imageUrl={portfoilo} desc="" />
+    <Card title="portfolio"  imageUrl={portfoilo} desc="Copying my instructor's portfolio would undermine my personal growth and originality as a developer. " href=""/>
     <Card title="pro4"  imageUrl="" desc=""/>
     <Card title="pro5"  imageUrl="" desc=""/>
     <Card title="pro6"  imageUrl="" desc=""/>
