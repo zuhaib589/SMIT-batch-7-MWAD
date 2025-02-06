@@ -4,21 +4,24 @@ function Header() {
   const [count, setcount] = useState(0);
   console.log(count);
 
+  const list = ["FSD", "LHR", "GRW", "RWP"];
+
   return (
     <>
-      <h1>Hello i'm heading 1</h1>
+      <h1>Increment and Decrement </h1>
 
-      <button onClick={() => setcount((count) => count + 1)}>
-        
-        increment
-      </button>
-      
+      <button onClick={() => setcount(count + 1)}>increment</button>
+
       <h1>{count}</h1>
 
-      <button onClick={() => setcount((count) => count - 1)}>
-        
-        decrement
-      </button>
+      <button onClick={() => setcount(count - 1)}>decrement</button>
+      <ul className="list-group">
+        {list.map((item, index) => (
+          <li className="list-group-items" key={item} onClick={() => console.log(item, index)}>
+            {item}
+          </li>
+        ))}
+      </ul>
     </>
   );
 }
