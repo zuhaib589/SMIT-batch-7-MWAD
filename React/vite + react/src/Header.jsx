@@ -24,7 +24,7 @@ function Header() {
       </ul>
 
       minor change 
-      <p> still Nothing is changed </p>
+      <p> still Nothing iss changed </p>
     </>
   );
 }
